@@ -1,0 +1,7 @@
+,Fault detection rate,False alarm rate,Accuracy
+defect_steambarrier,0.3197975587972611,,
+steam_in_feed,0.35308127418874663,,
+blocked_spargers,0.9923786841321822,,
+airflow_OOC,1.0,,
+OUR_OOC,0.7301739130434782,,
+overall,0.7030347045702132,0.23974104703813195,0.7316468287660407

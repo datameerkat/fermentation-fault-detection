@@ -1,0 +1,9 @@
+{
+    "model": "MPCA",
+    "date": "2024-07-15 17:19:39",
+    "train_set": "Train_1000_MPCA",
+    "name": "MPCA_Thesis_lowalpha",
+    "n_components": 3,
+    "alpha": 0.01,
+    "moving time window": 6
+}

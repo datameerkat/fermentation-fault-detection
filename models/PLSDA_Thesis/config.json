@@ -1,0 +1,9 @@
+{
+    "model": "PLS-DA",
+    "date": "2024-07-20 00:51:59",
+    "train_set": "Train_1000",
+    "name": "PLSDA_Thesis_final",
+    "n_components": 6,
+    "threshold": 0.45,
+    "moving time window": 24
+}

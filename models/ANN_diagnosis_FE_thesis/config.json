@@ -1,0 +1,16 @@
+{
+    "model": "ANN_multclass",
+    "date": "2024-07-19 17:44:30",
+    "train_set": "Train_1000",
+    "name": "ANN_diagnosis_FE_thesis",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-06,
+    "architecture": [
+        60
+    ],
+    "input_dim": 8,
+    "output_dim": 5,
+    "epochs": 100,
+    "false_alarm_penalty": 3.0,
+    "moving time window": 1
+}

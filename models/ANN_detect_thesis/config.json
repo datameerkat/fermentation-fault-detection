@@ -1,0 +1,16 @@
+{
+    "model": "ANN_oneclass",
+    "date": "2024-07-18 19:23:20",
+    "train_set": "Train_1000",
+    "name": "ANN_detect_thesis_penalty2",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-08,
+    "architecture": [
+        40
+    ],
+    "input_dim": 8,
+    "output_dim": 2,
+    "epochs": 100,
+    "false_alarm_penalty": 5,
+    "moving time window": 1
+}
