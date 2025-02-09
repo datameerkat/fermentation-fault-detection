@@ -2,6 +2,15 @@
 
 This repository is part of my master's thesis "Framework for data-driven fault detection models in fermentation processes". The thesis presents the development and application of a framework for creating data-driven fault detection models using synthetic data.
 
+## Overview
+
+This repository contains:
+
+- A **Python package** (`fermfaultdetect`) that provides tools for dataset generation, data preprocessing, fault detection model training, and model evaluation.
+- **Notebooks** to execute the steps laid out in the framework.
+- **Pre-trained models** (`models/`) for fault detection and diagnosis.
+- **Thesis document** (`Thesis.pdf`) with the detailed framework, methodology and results.
+
 ## Installation
 
 To set up the environment and install the project as a package, follow these steps:
