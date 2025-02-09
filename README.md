@@ -1,6 +1,6 @@
 # fermentation-fault-detection
 
-This repository is part of my master's thesis "Framework for data-driven fault detection models in fermentation processes". The thesis presents the development and application of a framework for creating datadriven fault detection models using synthetic data.
+This repository is part of my master's thesis "Framework for data-driven fault detection models in fermentation processes". The thesis presents the development and application of a framework for creating data-driven fault detection models using synthetic data.
 
 ## Installation
 
@@ -12,26 +12,26 @@ To set up the environment and install the project as a package, follow these ste
    cd fermentation-fault-detection
    ```
 2. **Install the project as a package**
-    This install the package in "editable" mode, making it easier to adjust the code.
+    This installs the package in "editable" mode, making it easier to adjust the code.
     ```bash
     pip install -e .
     ```
 
 ## Usage instructions
 
-It is recommend to follow the workflow of the framework presented in the thesis. A short overview is given here.
+It is recommended to follow the workflow of the framework presented in the thesis. A short overview is given here.
 
 1. **Generated datasets**
-    Datasets (training, validation and test) need to be generated with the "make_dataset.ipynb" notebook. If reproduction of results is the goal, further information about the datasets can be found in the thesis document.
+    Datasets (training, validation and test) need to be generated with the "make_dataset.ipynb" notebook. If the reproduction of results is the goal, further information about the datasets can be found in the thesis document.
 
 2. **Optimize ML models**
-    Based on the generated datasets, machine learning based fault detection models can be trained with the notebooks found in the "Optimize_ML_models" folder. Make sure to adjust the names of the training and validation dataset according to the names of the datasets you created.
+    Based on the generated datasets, machine learning-based fault detection models can be trained with the notebooks found in the "Optimize_ML_models" folder. Make sure to adjust the names of the training and validation datasets according to the names of the datasets you created.
 
 3. **Evaluate the model performance**
-    After the fault detection models were optimized and saved, their performance can be evaluated with the "model_evaluation.ipynb" notebook. For this, a separate test dataset should be used.
+    After the fault detection models are optimized and saved, their performance can be evaluated with the "model_evaluation.ipynb" notebook. For this, a separate test dataset should be used.
 
 4. **(Optional) Evaluated extrapolation capabilities**
-    The generalization capabilities of the models can be evaluated using the "extrapolation_comparision.ipynb" notebook. This requires the models to evaluated on two different test sets, where one test set is based on parameter distributions diverging from the ones of the training set.
+    The generalization capabilities of the models can be evaluated using the "extrapolation_comparision.ipynb" notebook. This requires the models to be evaluated on two different test sets, where one test set is based on parameter distributions diverging from the ones of the training set.
 
 ## Project structure
 
@@ -46,7 +46,7 @@ The directory structure of the project looks like this:
 │   └── simulation_sets         <- generated datasets
 ├── evaluation                  <- stores model evaluation results
 ├── fermfaultdetect             <- source code of the project
-│   ├── data                    <- code to generate or analyse datasets
+│   ├── data                    <- code to generate or analyze datasets
 │   │   ├── make_dataset.py
 │   │   ├── preprocessing.py
 │   │   ├── statistics.py
@@ -58,7 +58,7 @@ The directory structure of the project looks like this:
 │   │   └── fed_batch_model.py  <- process model used to generate data
 │   ├── utils.py
 │   └── visualizations
-│       └── visualize.py        <- code for visualisations
+│       └── visualize.py        <- code for visualizations
 ├── models                      <- optimized fault detection & diagnosis models developed in the thesis
 │   ├── ANN_detect_thesis
 │   ├── ANN_diagnosis_FE_thesis
